@@ -1,0 +1,21 @@
+{
+  "name": "test-sonarcloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc -p tsconfig.build.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrian-toader-89/test-sonarcloud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrian-toader-89/test-sonarcloud/issues"
+  },
+  "homepage": "https://github.com/adrian-toader-89/test-sonarcloud#readme"
+}
